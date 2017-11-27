@@ -1,0 +1,20 @@
+{
+  "extends": "../tsconfig.json",
+  "files": ["./utilities/test-utils.ts"],
+  "include": [
+    "./type-definitions/*.d.ts",
+    "**/*.spec.ts"
+  ],
+  "compilerOptions": {
+    "baseUrl": "",
+    "module": "commonjs",
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "typeRoots": [
+      "../node_modules/@types"
+    ]
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "useWebpackText": true
+  }
+}

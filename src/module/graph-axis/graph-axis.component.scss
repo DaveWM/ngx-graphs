@@ -1,0 +1,102 @@
+$label-text-size: 16px;
+
+:host, .axis {
+  display: flex;
+  overflow: visible;
+}
+
+.axis {
+  flex: 1;
+
+  &--bottom {
+    flex-direction: column-reverse;
+    .axis__ticks {
+      align-items: flex-start;
+    }
+    .axis__tick {
+      transform: translate(-50%, 0);
+    }
+  }
+  &--top {
+    flex-direction: column;
+    .axis__ticks {
+      align-items: flex-end;
+    }
+    .axis__tick {
+      transform: translate(-50%, -100%);
+    }
+  }
+  &--left {
+    flex-direction: row;
+
+    .axis__ticks {
+      align-items: flex-end;
+    }
+    .axis__tick {
+      transform: translate(-100%, -50%);
+    }
+  }
+  &--right {
+    flex-direction: row-reverse;
+
+    .axis__ticks {
+      align-items: flex-start;
+    }
+    .axis__tick {
+      transform: translate(0, -50%);
+    }
+  }
+
+  &--vertical {
+    .axis__ticks {
+      flex-direction: column-reverse;
+    }
+    .axis__label-container {
+      width: $label-text-size;
+    }
+    .axis__label{
+      transform: rotate(-90deg);
+    }
+  }
+  &--horizontal {
+    .axis__ticks {
+      flex-direction: row;
+    }
+    .axis__label-container {
+      height: $label-text-size;
+    }
+  }
+}
+
+.axis__ticks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.axis__tick-container {
+  position: relative;
+  width: 0;
+  overflow: visible;
+}
+
+.axis__tick {
+  position: absolute;
+  left: 0;
+  font-size: 12px;
+  line-height: 9px;
+}
+
+.axis__label-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.axis__label {
+  font-size: $label-text-size;
+  overflow: visible;
+  white-space: nowrap;
+}

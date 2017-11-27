@@ -1,0 +1,33 @@
+:host {
+  display: flex;
+}
+
+.grid-lines-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex: 1;
+
+  &--vertical {
+    flex-direction: row;
+    .grid-line {
+      width: 1px;
+    }
+  }
+  &--horizontal {
+    flex-direction: column;
+    .grid-line {
+      height: 1px;
+    }
+  }
+}
+
+.grid-line {
+  z-index: 2;
+
+  line {
+    stroke: rgba(155,155,155,0.4);
+    stroke-dasharray: 4 7;
+    stroke-width: 1;
+  }
+}

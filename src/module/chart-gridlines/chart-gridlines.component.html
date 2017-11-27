@@ -1,0 +1,6 @@
+<div class="grid-lines-container" [ngClass]="'grid-lines-container--' + orientation">
+  <svg class="grid-line" *ngFor="let line of gridlines">
+    <line *ngIf="orientation === 'horizontal'" x1="0" y1="50%" x2="100%" y2="50%"></line>
+    <line *ngIf="orientation === 'vertical'" x1="50%" y1="0" x2="50%" y2="100%"></line>
+  </svg>
+</div>

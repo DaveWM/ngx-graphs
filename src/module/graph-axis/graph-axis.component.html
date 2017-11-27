@@ -1,0 +1,10 @@
+<div class="axis" [ngClass]="['axis--' + getOrientation(), 'axis--' + position]">
+  <div class="axis__label-container">
+    <span class="axis__label" *ngIf="label">{{label}}</span>
+  </div>
+  <div class="axis__ticks">
+    <span *ngFor="let tick of getTicks()" class="axis__tick-container">
+      <span class="axis__tick">{{tick}}</span>
+    </span>
+  </div>
+</div>

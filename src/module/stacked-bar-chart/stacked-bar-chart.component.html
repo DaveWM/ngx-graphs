@@ -1,0 +1,5 @@
+<div class="main">
+  <svg class="bar" *ngFor="let bar of getBars()" [attr.viewBox]="'0 ' + yAxis[0] + ' 100 ' + yAxis[1]" preserveAspectRatio="none">
+    <rect *ngFor="let barPart of bar" [attr.fill]="barPart.colour" x="0" y="0" width="100" [attr.height]="barPart.value"></rect>
+  </svg>
+</div>

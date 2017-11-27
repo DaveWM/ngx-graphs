@@ -1,0 +1,29 @@
+{
+  "generator-ngx-library": {
+    "version": "5.2.0",
+    "authorName": "David Martin",
+    "authorEmail": "dwmartin41@gmail.com",
+    "githubUsername": "DaveWM",
+    "githubRepoName": "ngx-graphs",
+    "projectName": "ngx-graphs",
+    "projectVersion": "0.0.1",
+    "projectDescription": "Angular library built with ❤ using ngx-library yeoman generator.",
+    "projectKeywords": [
+      "ng",
+      "angular",
+      "library"
+    ],
+    "ngVersion": "4.0.0",
+    "ngModules": [
+      "core",
+      "common"
+    ],
+    "otherDependencies": [],
+    "dependenciesRange": "^",
+    "ngPrefix": "ngxg",
+    "useGreenkeeper": false,
+    "useCompodoc": true,
+    "enforceNgGitCommitMsg": false,
+    "exclusions": []
+  }
+}
