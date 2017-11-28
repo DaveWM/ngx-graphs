@@ -12,6 +12,7 @@ import { StepAreaChartDemoComponent } from './step-area-chart-demo/step-area-cha
 import {LibModule} from 'ngx-graphs';
 import { StackedBarChartDemoComponent } from './stacked-bar-chart-demo/stacked-bar-chart-demo.component';
 import { GraphAxisDemoComponent } from './graph-axis-demo/graph-axis-demo.component';
+import { ChartLegendDemoComponent } from './chart-legend-demo/chart-legend-demo.component';
 
 @NgModule({
     declarations: [
@@ -19,7 +20,8 @@ import { GraphAxisDemoComponent } from './graph-axis-demo/graph-axis-demo.compon
         HomeComponent,
         StepAreaChartDemoComponent,
         StackedBarChartDemoComponent,
-        GraphAxisDemoComponent
+        GraphAxisDemoComponent,
+        ChartLegendDemoComponent
     ],
     imports: [
         // Add .withServerTransition() to support Universal rendering.
