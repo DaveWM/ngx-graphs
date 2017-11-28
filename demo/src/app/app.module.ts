@@ -8,6 +8,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppSharedModule } from './shared/shared.module';
 import { AppComponent } from './app.component';
+import { StepAreaChartDemoComponent } from './step-area-chart-demo/step-area-chart-demo.component';
+import {LibModule} from 'ngx-graphs';
 
 @NgModule({
     declarations: [
@@ -25,7 +27,7 @@ import { AppComponent } from './app.component';
         HttpModule,
         AppRoutingModule,
         AppSharedModule,
-        HomeModule
+        LibModule.forRoot()
     ],
     providers: [],
     bootstrap: [AppComponent]
