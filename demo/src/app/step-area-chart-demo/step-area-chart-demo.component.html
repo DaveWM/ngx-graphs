@@ -1,9 +1,13 @@
-<h3>Step Area Chart</h3>
-<step-area-chart 
-  [xAxis]="[0,100]"
-  [yAxis]="[0,100]"
-  [data]="data"
-  [colour]="colour"
-></step-area-chart>
-<button class="btn btn-primary" (click)="randomData()">Regenerate Data</button>
-<input type="color" [(ngModel)]="colour" />
+<div class="card">
+  <div class="card-body">
+    <h3 class="card-title">Step Area Chart</h3>
+    <step-area-chart 
+      [xAxis]="[0,100]"
+      [yAxis]="[0,100]"
+      [data]="data"
+      [colour]="colour"
+    ></step-area-chart>
+    <button class="btn btn-primary" (click)="randomData()">Regenerate Data</button>
+    <input type="color" [(ngModel)]="colour" />
+  </div>
+</div>

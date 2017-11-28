@@ -1,6 +1,7 @@
-<h3>Stacked Bar Chart</h3>
-<stacked-bar-chart 
-  [yAxis]="[0,100]"
-  [series]="data"
-></stacked-bar-chart>
-<button class="btn btn-primary" (click)="randomData()">Regenerate Data</button>
+<div class="card">
+  <div class="card-body">
+    <h3 class="card-title">Stacked Bar Chart</h3>
+    <stacked-bar-chart [yAxis]="[0,100]" [series]="data"></stacked-bar-chart>
+    <button class="btn btn-primary" (click)="randomData()">Regenerate Data</button>
+  </div>
+</div>
