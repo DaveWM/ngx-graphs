@@ -2,7 +2,7 @@
   <img height="256px" width="256px" style="text-align: center;" src="https://cdn.rawgit.com/DaveWM/ngx-graphs/master/demo/src/assets/logo.svg">
 </p>
 
-# ngx-graphs - Angular library built with ❤ using ngx-library yeoman generator.
+# ngx-graphs
 
 [![npm version](https://badge.fury.io/js/ngx-graphs.svg)](https://badge.fury.io/js/ngx-graphs)
 [![Build Status](https://travis-ci.org/DaveWM/ngx-graphs.svg?branch=master)](https://travis-ci.org/DaveWM/ngx-graphs)
@@ -10,12 +10,28 @@
 [![dependency Status](https://david-dm.org/DaveWM/ngx-graphs/status.svg)](https://david-dm.org/DaveWM/ngx-graphs)
 [![devDependency Status](https://david-dm.org/DaveWM/ngx-graphs/dev-status.svg?branch=master)](https://david-dm.org/DaveWM/ngx-graphs#info=devDependencies)
 
+## Overview
+
+The aim of `ngx-charts` is to provide highly composable charting components. For example, to build a step area chart with an X and Y axis, you would use 2 `graph-axis` components and one `step-area-chart` component. Breaking down charts into small, composable components has many benefits. To name a few: 
+
+* It gives you as much control as possible over layout
+* You can swap out bits of the chart for your own implementation - if you don't like the provided `chart-legend`, just make your own.
+* You can use each component individually, perhaps even not for their intended purpose 🤔
+
+`ngx-charts` isn't opinionated about what you use for the overall layout, but [css grid](https://css-tricks.com/snippets/css/complete-guide-grid/) is the recommended option. You could also use absolute positioning, or a Javascript layout engine.
+
+_Note:_ `ngx-charts` relies heavily on flexbox internally, it will not work in browsers that do not support flexbox.
+
+## Documentation
+
+The documentation is available at https://DaveWM.github.io/ngx-graphs/docs
+
 ## Demo
 
 View all the directives in action at https://DaveWM.github.io/ngx-graphs
 
 ## Dependencies
-* [Angular](https://angular.io) (*requires* Angular 2 or higher, tested with 2.0.0)
+* [Angular](https://angular.io) (*requires* Angular 4 or higher, tested with 5.0.3)
 
 ## Installation
 Install above dependencies via *npm*. 
@@ -66,10 +82,6 @@ import { LibModule } from 'ngx-graphs';
 export class OtherModule {
 }
 ```
-
-## Usage
-
-
 
 ## License
 
