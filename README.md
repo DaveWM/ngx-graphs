@@ -24,7 +24,7 @@ _Note:_ `ngx-charts` relies heavily on flexbox internally, it will not work in b
 
 ## Documentation
 
-The documentation is available at https://DaveWM.github.io/ngx-graphs/docs
+The documentation is available at https://DaveWM.github.io/ngx-graphs/doc
 
 ## Demo
 
