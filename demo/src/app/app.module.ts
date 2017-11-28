@@ -10,12 +10,14 @@ import { AppSharedModule } from './shared/shared.module';
 import { AppComponent } from './app.component';
 import { StepAreaChartDemoComponent } from './step-area-chart-demo/step-area-chart-demo.component';
 import {LibModule} from 'ngx-graphs';
+import { StackedBarChartDemoComponent } from './stacked-bar-chart-demo/stacked-bar-chart-demo.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         HomeComponent,
-        StepAreaChartDemoComponent
+        StepAreaChartDemoComponent,
+        StackedBarChartDemoComponent
     ],
     imports: [
         // Add .withServerTransition() to support Universal rendering.
