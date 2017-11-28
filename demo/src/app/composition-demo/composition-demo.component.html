@@ -1,0 +1,34 @@
+<h3>Composing Components</h3>
+<p>
+  Often, you will want to compose the above components together. For example, you often want your graphs to have axes, and a legend.
+  ngx-graphs is not opinionated on how you do this, but css grid is often a good approach (example below)
+</p>
+<div class="main">
+  <graph-axis class="y-axis" label="y axis" position="left" [scale]="{min: 0, max: 100, numTicks: 11}"></graph-axis>
+  <div class="chart-container">
+    <step-area-chart
+      [xAxis]="[0,100]"
+      [yAxis]="[0,100]"
+      [data]="[[0, 10], [30, 25], [65, 90], [85, 50]]"
+      colour="#01ABC1"
+      >
+    </step-area-chart>
+    <chart-gridlines numLines="11" orientation="horizontal" *ngIf="showHorizontalGridlines"></chart-gridlines>
+    <chart-gridlines numLines="11" orientation="vertical" *ngIf="showVerticalGridlines"></chart-gridlines>
+  </div>
+  <graph-axis class="x-axis" label="x axis" position="bottom" [scale]="{min: 0, max: 100, numTicks: 11}"></graph-axis>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" [(ngModel)]="showVerticalGridlines">
+    Show Vertical Gridlines
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" [(ngModel)]="showHorizontalGridlines">
+    Show Horizontal Gridlines
+  </label>
+</div>
+
+

@@ -13,6 +13,7 @@ import {LibModule} from 'ngx-graphs';
 import { StackedBarChartDemoComponent } from './stacked-bar-chart-demo/stacked-bar-chart-demo.component';
 import { GraphAxisDemoComponent } from './graph-axis-demo/graph-axis-demo.component';
 import { ChartLegendDemoComponent } from './chart-legend-demo/chart-legend-demo.component';
+import { CompositionDemoComponent } from './composition-demo/composition-demo.component';
 
 @NgModule({
     declarations: [
@@ -21,7 +22,8 @@ import { ChartLegendDemoComponent } from './chart-legend-demo/chart-legend-demo.
         StepAreaChartDemoComponent,
         StackedBarChartDemoComponent,
         GraphAxisDemoComponent,
-        ChartLegendDemoComponent
+        ChartLegendDemoComponent,
+        CompositionDemoComponent
     ],
     imports: [
         // Add .withServerTransition() to support Universal rendering.

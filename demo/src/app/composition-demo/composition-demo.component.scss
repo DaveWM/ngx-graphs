@@ -1,0 +1,40 @@
+.main {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  grid-template-rows: 1fr 50px;
+  height: 500px;
+  margin: 40px 0;
+
+  .y-axis {
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+
+  .x-axis {
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+
+  .chart-container {
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+}
+
+.chart-container {
+  position: relative;
+  flex: 1;
+
+  chart-gridlines, step-area-chart {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+}
+
+.x-axis {
+  margin-top: 10px;
+}
+.y-axis {
+  margin-right: 10px;
+}
