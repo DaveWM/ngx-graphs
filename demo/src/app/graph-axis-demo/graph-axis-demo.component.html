@@ -1,0 +1,20 @@
+<h3>Graph Axis</h3>
+<graph-axis
+  label="axis label"
+  position="bottom"
+  [scale]="{min: min, max: max, numTicks: numTicks}">
+</graph-axis>
+<form name="controls">
+  <div class="form-group">
+    <label>Minimum</label>
+    <input name="min" type="number" class="form-control" [(ngModel)]="min" />
+  </div>
+  <div class="form-group">
+    <label>Maximum</label>
+    <input name="max" type="number" class="form-control" [(ngModel)]="max" />
+  </div>
+  <div class="form-group">
+    <label>Number of ticks</label>
+    <input name="ticks" type="number" class="form-control" [(ngModel)]="numTicks" />
+  </div>
+</form>
