@@ -17,7 +17,8 @@ import { AppComponent } from './app.component';
         // Add .withServerTransition() to support Universal rendering.
         // The application ID can be any identifier which is unique on
         // the page.
-        BrowserModule.withServerTransition({appId: 'ngx-graphs-demo-id'}),
+        //BrowserModule.withServerTransition({appId: 'ngx-graphs-demo-id'}),
+        BrowserModule,
         FormsModule,
         HttpModule,
         AppRoutingModule,
