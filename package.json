@@ -31,8 +31,7 @@
     "@angular/common": "4.0.0",
     "@angular/core": "4.0.0",
     "d3-shape": "^1.2.0",
-    "ramda": "^0.25.0",
-    "testcheck": "^1.0.0-rc.2"
+    "ramda": "^0.25.0"
   },
   "devDependencies": {
     "@angular/animations": "4.0.0",
@@ -94,6 +93,7 @@
     "sass-loader": "6.0.6",
     "source-map-loader": "0.2.2",
     "svg-path-parser": "^1.1.0",
+    "testcheck": "^1.0.0-rc.2",
     "to-string-loader": "1.1.5",
     "travis-status": "2.0.0",
     "tslint": "5.4.3",
