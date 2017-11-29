@@ -1,0 +1,12 @@
+.gridlines-container {
+  flex: 1;
+  position: relative;
+  height: 300px;
+  margin: 20px 0;
+
+  chart-gridlines {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+}

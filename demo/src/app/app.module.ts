@@ -14,6 +14,7 @@ import { StackedBarChartDemoComponent } from './stacked-bar-chart-demo/stacked-b
 import { GraphAxisDemoComponent } from './graph-axis-demo/graph-axis-demo.component';
 import { ChartLegendDemoComponent } from './chart-legend-demo/chart-legend-demo.component';
 import { CompositionDemoComponent } from './composition-demo/composition-demo.component';
+import { ChartGridlinesDemoComponent } from './chart-gridlines-demo/chart-gridlines-demo.component';
 
 @NgModule({
     declarations: [
@@ -23,7 +24,8 @@ import { CompositionDemoComponent } from './composition-demo/composition-demo.co
         StackedBarChartDemoComponent,
         GraphAxisDemoComponent,
         ChartLegendDemoComponent,
-        CompositionDemoComponent
+        CompositionDemoComponent,
+        ChartGridlinesDemoComponent
     ],
     imports: [
         // Add .withServerTransition() to support Universal rendering.
