@@ -1,6 +1,6 @@
 {
   "name": "ngx-graphs",
-  "description": "Angular library built with ❤ using ngx-library yeoman generator.",
+  "description": "Graphing components for Angular 4+",
   "version": "0.0.2",
   "homepage": "https://github.com/DaveWM/ngx-graphs",
   "author": {
