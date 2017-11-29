@@ -13,10 +13,10 @@ import { GraphAxisComponent } from './graph-axis/graph-axis.component';
   exports: [ChartGridlinesComponent, ChartLegendComponent, StepAreaChartComponent, StackedBarChartComponent, GraphAxisComponent],
   declarations: [ChartGridlinesComponent, ChartLegendComponent, StepAreaChartComponent, StackedBarChartComponent, GraphAxisComponent]
 })
-export class LibModule {
+export class NgxGraphsModule {
   static forRoot(): ModuleWithProviders {
     return {
-      ngModule: LibModule
+      ngModule: NgxGraphsModule
     };
   }
 }

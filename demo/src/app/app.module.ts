@@ -9,7 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppSharedModule } from './shared/shared.module';
 import { AppComponent } from './app.component';
 import { StepAreaChartDemoComponent } from './step-area-chart-demo/step-area-chart-demo.component';
-import {LibModule} from 'ngx-graphs';
+import {NgxGraphsModule} from 'ngx-graphs';
 import { StackedBarChartDemoComponent } from './stacked-bar-chart-demo/stacked-bar-chart-demo.component';
 import { GraphAxisDemoComponent } from './graph-axis-demo/graph-axis-demo.component';
 import { ChartLegendDemoComponent } from './chart-legend-demo/chart-legend-demo.component';
@@ -35,7 +35,7 @@ import { CompositionDemoComponent } from './composition-demo/composition-demo.co
         HttpModule,
         AppRoutingModule,
         AppSharedModule,
-        LibModule.forRoot()
+        NgxGraphsModule.forRoot()
     ],
     providers: [],
     bootstrap: [AppComponent]
