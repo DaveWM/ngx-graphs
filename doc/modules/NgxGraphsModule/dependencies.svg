@@ -21,15 +21,15 @@
 <polygon fill="#fb8072" stroke="transparent" points="628,-10 628,-30 648,-30 648,-10 628,-10"/>
 <text text-anchor="start" x="651.7258" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Exports</text>
 <g id="clust1" class="cluster">
-<title>cluster_LibModule</title>
+<title>cluster_NgxGraphsModule</title>
 <polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="8,-70 8,-268 932,-268 932,-70 8,-70"/>
 </g>
 <g id="clust2" class="cluster">
-<title>cluster_LibModule_declarations</title>
+<title>cluster_NgxGraphsModule_declarations</title>
 <polygon fill="none" stroke="#000000" points="24,-78 24,-130 914,-130 914,-78 24,-78"/>
 </g>
 <g id="clust9" class="cluster">
-<title>cluster_LibModule_exports</title>
+<title>cluster_NgxGraphsModule_exports</title>
 <polygon fill="none" stroke="#000000" points="16,-208 16,-260 924,-260 924,-208 16,-208"/>
 </g>
 <!-- ChartGridlinesComponent -->
@@ -38,17 +38,17 @@
 <polygon fill="#ffffb3" stroke="#000000" points="906.0337,-122 741.9663,-122 741.9663,-86 906.0337,-86 906.0337,-122"/>
 <text text-anchor="middle" x="824" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">ChartGridlinesComponent</text>
 </g>
-<!-- LibModule -->
+<!-- NgxGraphsModule -->
 <g id="node6" class="node">
-<title>LibModule</title>
-<polygon fill="#8dd3c7" stroke="#000000" points="509.493,-187 506.493,-191 485.493,-191 482.493,-187 430.507,-187 430.507,-151 509.493,-151 509.493,-187"/>
-<text text-anchor="middle" x="470" y="-164.8" font-family="Times,serif" font-size="14.00" fill="#000000">LibModule</text>
+<title>NgxGraphsModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="532.0828,-187 529.0828,-191 508.0828,-191 505.0828,-187 407.9172,-187 407.9172,-151 532.0828,-151 532.0828,-187"/>
+<text text-anchor="middle" x="470" y="-164.8" font-family="Times,serif" font-size="14.00" fill="#000000">NgxGraphsModule</text>
 </g>
-<!-- ChartGridlinesComponent&#45;&gt;LibModule -->
+<!-- ChartGridlinesComponent&#45;&gt;NgxGraphsModule -->
 <g id="edge1" class="edge">
-<title>ChartGridlinesComponent&#45;&gt;LibModule</title>
-<path fill="none" stroke="#000000" d="M853.5055,-122.2667C853.5055,-140.5552 853.5055,-166 853.5055,-166 853.5055,-166 519.5974,-166 519.5974,-166"/>
-<polygon fill="#000000" stroke="#000000" points="519.5974,-162.5001 509.5974,-166 519.5973,-169.5001 519.5974,-162.5001"/>
+<title>ChartGridlinesComponent&#45;&gt;NgxGraphsModule</title>
+<path fill="none" stroke="#000000" d="M853.5055,-122.2667C853.5055,-140.5552 853.5055,-166 853.5055,-166 853.5055,-166 542.043,-166 542.043,-166"/>
+<polygon fill="#000000" stroke="#000000" points="542.0431,-162.5001 532.043,-166 542.043,-169.5001 542.0431,-162.5001"/>
 </g>
 <!-- ChartLegendComponent -->
 <g id="node2" class="node">
@@ -56,11 +56,11 @@
 <polygon fill="#ffffb3" stroke="#000000" points="724.4172,-122 569.5828,-122 569.5828,-86 724.4172,-86 724.4172,-122"/>
 <text text-anchor="middle" x="647" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">ChartLegendComponent</text>
 </g>
-<!-- ChartLegendComponent&#45;&gt;LibModule -->
+<!-- ChartLegendComponent&#45;&gt;NgxGraphsModule -->
 <g id="edge2" class="edge">
-<title>ChartLegendComponent&#45;&gt;LibModule</title>
-<path fill="none" stroke="#000000" d="M673.4861,-122.0091C673.4861,-138.0494 673.4861,-159 673.4861,-159 673.4861,-159 519.7172,-159 519.7172,-159"/>
-<polygon fill="#000000" stroke="#000000" points="519.7173,-155.5001 509.7172,-159 519.7172,-162.5001 519.7173,-155.5001"/>
+<title>ChartLegendComponent&#45;&gt;NgxGraphsModule</title>
+<path fill="none" stroke="#000000" d="M673.4861,-122.0091C673.4861,-138.0494 673.4861,-159 673.4861,-159 673.4861,-159 542.1582,-159 542.1582,-159"/>
+<polygon fill="#000000" stroke="#000000" points="542.1583,-155.5001 532.1582,-159 542.1582,-162.5001 542.1583,-155.5001"/>
 </g>
 <!-- StepAreaChartComponent -->
 <g id="node3" class="node">
@@ -68,9 +68,9 @@
 <polygon fill="#ffffb3" stroke="#000000" points="552.0197,-122 387.9803,-122 387.9803,-86 552.0197,-86 552.0197,-122"/>
 <text text-anchor="middle" x="470" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">StepAreaChartComponent</text>
 </g>
-<!-- StepAreaChartComponent&#45;&gt;LibModule -->
+<!-- StepAreaChartComponent&#45;&gt;NgxGraphsModule -->
 <g id="edge3" class="edge">
-<title>StepAreaChartComponent&#45;&gt;LibModule</title>
+<title>StepAreaChartComponent&#45;&gt;NgxGraphsModule</title>
 <path fill="none" stroke="#000000" d="M470,-122.1061C470,-122.1061 470,-140.991 470,-140.991"/>
 <polygon fill="#000000" stroke="#000000" points="466.5001,-140.9909 470,-150.991 473.5001,-140.991 466.5001,-140.9909"/>
 </g>
@@ -80,11 +80,11 @@
 <polygon fill="#ffffb3" stroke="#000000" points="369.4636,-122 192.5364,-122 192.5364,-86 369.4636,-86 369.4636,-122"/>
 <text text-anchor="middle" x="281" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">StackedBarChartComponent</text>
 </g>
-<!-- StackedBarChartComponent&#45;&gt;LibModule -->
+<!-- StackedBarChartComponent&#45;&gt;NgxGraphsModule -->
 <g id="edge4" class="edge">
-<title>StackedBarChartComponent&#45;&gt;LibModule</title>
-<path fill="none" stroke="#000000" d="M309.6606,-122.0091C309.6606,-138.0494 309.6606,-159 309.6606,-159 309.6606,-159 420.3655,-159 420.3655,-159"/>
-<polygon fill="#000000" stroke="#000000" points="420.3656,-162.5001 430.3655,-159 420.3655,-155.5001 420.3656,-162.5001"/>
+<title>StackedBarChartComponent&#45;&gt;NgxGraphsModule</title>
+<path fill="none" stroke="#000000" d="M309.6606,-122.0091C309.6606,-138.0494 309.6606,-159 309.6606,-159 309.6606,-159 397.5495,-159 397.5495,-159"/>
+<polygon fill="#000000" stroke="#000000" points="397.5495,-162.5001 407.5495,-159 397.5494,-155.5001 397.5495,-162.5001"/>
 </g>
 <!-- GraphAxisComponent -->
 <g id="node5" class="node">
@@ -92,11 +92,11 @@
 <polygon fill="#ffffb3" stroke="#000000" points="174.2562,-122 31.7438,-122 31.7438,-86 174.2562,-86 174.2562,-122"/>
 <text text-anchor="middle" x="103" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">GraphAxisComponent</text>
 </g>
-<!-- GraphAxisComponent&#45;&gt;LibModule -->
+<!-- GraphAxisComponent&#45;&gt;NgxGraphsModule -->
 <g id="edge5" class="edge">
-<title>GraphAxisComponent&#45;&gt;LibModule</title>
-<path fill="none" stroke="#000000" d="M123.9593,-122.2667C123.9593,-140.5552 123.9593,-166 123.9593,-166 123.9593,-166 420.3047,-166 420.3047,-166"/>
-<polygon fill="#000000" stroke="#000000" points="420.3048,-169.5001 430.3047,-166 420.3047,-162.5001 420.3048,-169.5001"/>
+<title>GraphAxisComponent&#45;&gt;NgxGraphsModule</title>
+<path fill="none" stroke="#000000" d="M123.9593,-122.2667C123.9593,-140.5552 123.9593,-166 123.9593,-166 123.9593,-166 397.7352,-166 397.7352,-166"/>
+<polygon fill="#000000" stroke="#000000" points="397.7352,-169.5001 407.7352,-166 397.7352,-162.5001 397.7352,-169.5001"/>
 </g>
 <!-- ChartGridlinesComponent  -->
 <g id="node7" class="node">
@@ -104,10 +104,10 @@
 <polygon fill="#fb8072" stroke="#000000" points="916.033,-252 747.967,-252 747.967,-216 916.033,-216 916.033,-252"/>
 <text text-anchor="middle" x="832" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">ChartGridlinesComponent </text>
 </g>
-<!-- LibModule&#45;&gt;ChartGridlinesComponent  -->
+<!-- NgxGraphsModule&#45;&gt;ChartGridlinesComponent  -->
 <g id="edge6" class="edge">
-<title>LibModule&#45;&gt;ChartGridlinesComponent </title>
-<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M509.567,-173C597.3572,-173 800.7445,-173 800.7445,-173 800.7445,-173 800.7445,-205.698 800.7445,-205.698"/>
+<title>NgxGraphsModule&#45;&gt;ChartGridlinesComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M532.2105,-173C628.0191,-173 800.7445,-173 800.7445,-173 800.7445,-173 800.7445,-205.698 800.7445,-205.698"/>
 <polygon fill="#000000" stroke="#000000" points="797.2446,-205.698 800.7445,-215.698 804.2446,-205.698 797.2446,-205.698"/>
 </g>
 <!-- ChartLegendComponent  -->
@@ -116,10 +116,10 @@
 <polygon fill="#fb8072" stroke="#000000" points="729.9166,-252 572.0834,-252 572.0834,-216 729.9166,-216 729.9166,-252"/>
 <text text-anchor="middle" x="651" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">ChartLegendComponent </text>
 </g>
-<!-- LibModule&#45;&gt;ChartLegendComponent  -->
+<!-- NgxGraphsModule&#45;&gt;ChartLegendComponent  -->
 <g id="edge7" class="edge">
-<title>LibModule&#45;&gt;ChartLegendComponent </title>
-<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M509.7381,-180C555.0014,-180 622.7639,-180 622.7639,-180 622.7639,-180 622.7639,-205.7181 622.7639,-205.7181"/>
+<title>NgxGraphsModule&#45;&gt;ChartLegendComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M532.1349,-180C574.4284,-180 622.7639,-180 622.7639,-180 622.7639,-180 622.7639,-205.7181 622.7639,-205.7181"/>
 <polygon fill="#000000" stroke="#000000" points="619.264,-205.718 622.7639,-215.7181 626.264,-205.7181 619.264,-205.718"/>
 </g>
 <!-- StepAreaChartComponent  -->
@@ -128,9 +128,9 @@
 <polygon fill="#fb8072" stroke="#000000" points="554.019,-252 385.981,-252 385.981,-216 554.019,-216 554.019,-252"/>
 <text text-anchor="middle" x="470" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">StepAreaChartComponent </text>
 </g>
-<!-- LibModule&#45;&gt;StepAreaChartComponent  -->
+<!-- NgxGraphsModule&#45;&gt;StepAreaChartComponent  -->
 <g id="edge8" class="edge">
-<title>LibModule&#45;&gt;StepAreaChartComponent </title>
+<title>NgxGraphsModule&#45;&gt;StepAreaChartComponent </title>
 <path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M470,-187.1061C470,-187.1061 470,-205.991 470,-205.991"/>
 <polygon fill="#000000" stroke="#000000" points="466.5001,-205.9909 470,-215.991 473.5001,-205.991 466.5001,-205.9909"/>
 </g>
@@ -140,10 +140,10 @@
 <polygon fill="#fb8072" stroke="#000000" points="368.4642,-252 187.5358,-252 187.5358,-216 368.4642,-216 368.4642,-252"/>
 <text text-anchor="middle" x="278" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">StackedBarChartComponent </text>
 </g>
-<!-- LibModule&#45;&gt;StackedBarChartComponent  -->
+<!-- NgxGraphsModule&#45;&gt;StackedBarChartComponent  -->
 <g id="edge9" class="edge">
-<title>LibModule&#45;&gt;StackedBarChartComponent </title>
-<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M430.3569,-180C367.2729,-180 251.0894,-180 251.0894,-180 251.0894,-180 251.0894,-205.7181 251.0894,-205.7181"/>
+<title>NgxGraphsModule&#45;&gt;StackedBarChartComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M407.8546,-180C343.135,-180 251.0894,-180 251.0894,-180 251.0894,-180 251.0894,-205.7181 251.0894,-205.7181"/>
 <polygon fill="#000000" stroke="#000000" points="247.5895,-205.718 251.0894,-215.7181 254.5895,-205.7181 247.5895,-205.718"/>
 </g>
 <!-- GraphAxisComponent  -->
@@ -152,10 +152,10 @@
 <polygon fill="#fb8072" stroke="#000000" points="170.2562,-252 23.7438,-252 23.7438,-216 170.2562,-216 170.2562,-252"/>
 <text text-anchor="middle" x="97" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">GraphAxisComponent </text>
 </g>
-<!-- LibModule&#45;&gt;GraphAxisComponent  -->
+<!-- NgxGraphsModule&#45;&gt;GraphAxisComponent  -->
 <g id="edge10" class="edge">
-<title>LibModule&#45;&gt;GraphAxisComponent </title>
-<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M430.2345,-173C330.5235,-173 77.7907,-173 77.7907,-173 77.7907,-173 77.7907,-205.698 77.7907,-205.698"/>
+<title>NgxGraphsModule&#45;&gt;GraphAxisComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M407.8533,-173C297.2609,-173 77.7907,-173 77.7907,-173 77.7907,-173 77.7907,-205.698 77.7907,-205.698"/>
 <polygon fill="#000000" stroke="#000000" points="74.2906,-205.698 77.7907,-215.698 81.2906,-205.698 74.2906,-205.698"/>
 </g>
 </g>

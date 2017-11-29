@@ -77,7 +77,7 @@
                                 id="xs-modules-links"
                             >
                                 <li class="link">
-                                    <a href="./modules/LibModule.html" >LibModule</a>
+                                    <a href="./modules/NgxGraphsModule.html" >NgxGraphsModule</a>
                                 </li>
                         </ul>
                     </li>
@@ -210,7 +210,7 @@
                                        id="modules-links"
                    >
                                        <li class="link">
-                                           <a href="./modules/LibModule.html" >LibModule</a>
+                                           <a href="./modules/NgxGraphsModule.html" >NgxGraphsModule</a>
                                        </li>
                                </ul>
                            </li>
@@ -323,9 +323,9 @@ In your systemjs config file, <code>map</code> needs to tell the System loader w
 }</code></pre><hr>
 </blockquote>
 <p>Once installed you need to import the main module:</p>
-<pre class="line-numbers"><code class="language-js">import { LibModule } from &#39;ngx-graphs&#39;;</code></pre><p>The only remaining part is to list the imported module in your application module. The exact method will be slightly
-different for the root (top-level) module for which you should end up with the code similar to (notice <code>LibModule .forRoot()</code>):</p>
-<pre class="line-numbers"><code class="language-js">import { LibModule } from &#39;ngx-graphs&#39;;
+<pre class="line-numbers"><code class="language-js">import { NgxGraphsModule } from &#39;ngx-graphs&#39;;</code></pre><p>The only remaining part is to list the imported module in your application module. The exact method will be slightly
+different for the root (top-level) module for which you should end up with the code similar to (notice <code>NgxGraphsModule .forRoot()</code>):</p>
+<pre class="line-numbers"><code class="language-js">import { NgxGraphsModule } from &#39;ngx-graphs&#39;;
 
 &#64;NgModule({
   declarations: [AppComponent, ...],
@@ -333,12 +333,12 @@ different for the root (top-level) module for which you should end up with the c
   bootstrap: [AppComponent]
 })
 export class AppModule {
-}</code></pre><p>Other modules in your application can simply import <code>LibModule</code>:</p>
-<pre class="line-numbers"><code class="language-js">import { LibModule } from &#39;ngx-graphs&#39;;
+}</code></pre><p>Other modules in your application can simply import <code>NgxGraphsModule</code>:</p>
+<pre class="line-numbers"><code class="language-js">import { NgxGraphsModule } from &#39;ngx-graphs&#39;;
 
 &#64;NgModule({
   declarations: [OtherComponent, ...],
-  imports: [LibModule, ...], 
+  imports: [NgxGraphsModule, ...], 
 })
 export class OtherModule {
 }</code></pre><h2 id="license">License</h2>
