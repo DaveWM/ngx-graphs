@@ -1,7 +1,7 @@
 {
   "name": "ngx-graphs",
   "description": "Graphing components for Angular 4+",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/DaveWM/ngx-graphs",
   "author": {
     "name": "David Martin",
