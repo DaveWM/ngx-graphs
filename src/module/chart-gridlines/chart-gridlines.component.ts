@@ -1,7 +1,6 @@
+import { Orientation } from './../../types';
 import { Component, OnInit, Input } from '@angular/core';
 import * as R from 'ramda';
-
-export type Orientation = "horizontal" | "vertical";
 
 @Component({
   selector: 'chart-gridlines',

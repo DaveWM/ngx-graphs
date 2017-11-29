@@ -1,10 +1,6 @@
 import { gen, sampleOne } from 'testcheck';
 import { Component, OnInit } from '@angular/core';
-
-type Series = {
-  colour: string,
-  data: number[]
-};
+import {BarChartSeries} from 'ngx-graphs';
 
 @Component({
   selector: 'stacked-bar-chart-demo',
@@ -13,7 +9,7 @@ type Series = {
 })
 export class StackedBarChartDemoComponent implements OnInit {
 
-  public data: Series[] = [];
+  public data: BarChartSeries[] = [];
 
   constructor() { }
 

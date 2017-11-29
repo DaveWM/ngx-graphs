@@ -1,10 +1,6 @@
+import { BarChartSeries } from './../../types';
 import {Component, Input, OnInit} from '@angular/core';
 import * as R from "ramda";
-
-export type Series = {
-  colour: string,
-  data: number[]
-}
 
 export type BarPart = {
   colour: string,
@@ -22,13 +18,13 @@ export class StackedBarChartComponent implements OnInit {
   public yAxis: [number, number]; // min, max
 
   @Input()
-  public series: Series[];
+  public series: BarChartSeries[];
 
   constructor() { }
 
   public getBars(): BarPart[][] {
-    return R.pipe<Series[], BarPart[][], BarPart[][], BarPart[][]>(
-      R.map((s: Series) => s.data.map(d => ({colour: s.colour, value: d}))),
+    return R.pipe<BarChartSeries[], BarPart[][], BarPart[][], BarPart[][]>(
+      R.map((s: BarChartSeries) => s.data.map(d => ({colour: s.colour, value: d}))),
       R.transpose, // same as zipping all the lists together
       R.map<BarPart[], BarPart[]>(
         R.pipe<BarPart[], BarPart[], BarPart[]>(

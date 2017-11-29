@@ -1,17 +1,7 @@
+import { Scale, AxisPosition, Orientation } from './../../types';
 import {Component, Input, OnInit} from '@angular/core';
 import * as R from 'ramda';
 import {round, scale} from '../../utilities/misc-utils';
-
-export type Scale = {
-  min: number,
-  max: number,
-  numTicks: number
-};
-
-// would be better as an enum, but it's harder to use in templates
-export type AxisPosition = 'top' | 'bottom' | 'left' | 'right';
-
-export type Orientation = 'vertical' | 'horizontal';
 
 @Component({
   selector: 'graph-axis',

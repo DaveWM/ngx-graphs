@@ -1,9 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-
-export type LegendKey = {
-  colour: string,
-  label: string
-}
+import { LegendKey } from './../../types';
 
 @Component({
   selector: 'chart-legend',
