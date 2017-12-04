@@ -43,7 +43,7 @@ map: {
 
 ## Example Usage
 
-The source for the examples on the documentation site is [here](https://github.com/DaveWM/ngx-graphs/tree/master/demo/src/app) - `composition-demo` is an example of how to use CSS grid for layout. 
+The source for the examples on the documentation site is [here](https://github.com/DaveWM/ngx-graphs/tree/master/demo/src/app) - [composition-demo](https://github.com/DaveWM/ngx-graphs/tree/master/demo/src/app/composition-demo) is an example of how to use CSS grid for layout. 
 
 ## Documentation
 
