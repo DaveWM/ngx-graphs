@@ -22,17 +22,6 @@ The aim of `ngx-charts` is to provide highly composable charting components. For
 
 _Note:_ `ngx-charts` relies heavily on flexbox internally, it will not work in browsers that do not support flexbox.
 
-## Documentation
-
-The documentation is available at https://DaveWM.github.io/ngx-graphs/doc
-
-## Demo
-
-View all the directives in action at https://DaveWM.github.io/ngx-graphs
-
-## Dependencies
-* [Angular](https://angular.io) (*requires* Angular 4 or higher, tested with 5.0.3)
-
 ## Installation
 Install above dependencies via *npm*. 
 
@@ -51,6 +40,21 @@ map: {
 }
 ```
 ---
+
+## Example Usage
+
+The source for the examples on the documentation site is [here](https://github.com/DaveWM/ngx-graphs/tree/master/demo/src/app) - `composition-demo` is an example of how to use CSS grid for layout. 
+
+## Documentation
+
+The documentation is available at https://DaveWM.github.io/ngx-graphs/doc
+
+## Demo
+
+View all the directives in action at https://DaveWM.github.io/ngx-graphs
+
+## Dependencies
+* [Angular](https://angular.io) (*requires* Angular 4 or higher, tested with 5.0.3)
 
 Once installed you need to import the main module:
 ```js
